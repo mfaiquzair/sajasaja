@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lab sheet 5 js faiq question 1</title>
+
+        <script>
+            function myFunction() {
+              let x = document.getElementById('name').value;
+              // Get the value of the input field with id="numb"
+              let y = document.getElementById("numb").value;
+              // If x is Not a Number or less than one or greater than 10
+              
+             document.writeln("Welcome" + x );
+             document.writeln("You are" + y + "years old")
+            }
+        </script> 
+
+    </head>
+    <body>
+        <form>
+          <fieldset>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="numb">Age:</label>
+            <input type="text" id="numb" name="numb">
+
+            <input type="submit" value="Submit" onclick="myFunction()">
+          </fieldset>
+        </form>
+        
+    </body>
+</html>
