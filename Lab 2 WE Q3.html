@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{outline-color: rgb(0, 119, 255);}
+            body.solid{outline-style: solid;}
+            table{
+                width: 100%;
+                height: 100%;
+            }
+            .p1{
+                font-family: cursive;
+                text-align: left;
+            }
+            div{
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-right: 20px;
+                padding-left: 50px;
+            }
+        </style>
+    </head>
+    <body class="solid">
+        <table >
+            <tr>
+                <h1 style="text-align: center;">Your Personal Details</h1>
+            </tr>
+        
+            <tr>
+                <th class="p1"><div>Your name:</div></th>
+                <td>
+                    <form> <input type="text" id="yname" name="yname"><br></form>
+                </td>
+            </tr>
+            <tr>
+                <th class="p1"><div>Matric Number:</div></th>
+                <td>
+                    <form> <input type="text" id="mnumber" name="mnumber"><br></form>
+                </td>
+            </tr>
+            <tr>
+                <th class="p1"><div>Course:</div></th>
+                <td>
+                    <form><input type="text" id="course" name="course"><br></form>
+                </td>
+            </tr>
+            <tr>
+                <th class="p1"><div> Address:</div></th>
+                <td>
+                <textarea name="comments" rows="5" cols="36"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th class="p1"><div>Faculty:</div></th>
+                <td>
+                    <form>
+                        <select name="faculty">
+                            <option selected="selected">FSKKP</option>
+                            <option>FIST</option>
+                            <option>FKM</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th class="p1"><div>Gender:</div></th>
+                <td>
+                    <form>
+                        <input type="radio" name="Gender" value="Male">Male
+                        <input type="radio" name="gender" value="Female">Female
+                    </form>
+                </td>  
+            </tr>
+            <tr>
+                <th class="p1"><div> hobby:</div></th>
+                <td>
+                    <form>
+                        <input type="checkbox" id="read" name="read">Read
+                        <input type="checkbox" id="sing" name="sing">Sing
+                        <input type="checkbox" id="walk" name="walk">Walk
+                        <input type="checkbox" id="watch" name="watch">Watching Shows
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th class="p1"><div>Insert Your Comment:</div></th>
+                <td>
+                    <textarea name="comments" rows="5" cols="36"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                    </div>
+                </td>
+            </tr>
+            
+
+        </table>
+    </body>
+</html>
