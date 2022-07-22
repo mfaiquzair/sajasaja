@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab 6 no 2 faiq</title>
+    </head>
+    <body>
+        <p>Sort</p>
+        <button onclick="myFunction()">Click to sort !</button>
+        <p id="demo"></p>
+
+
+        <script>
+            var arr=[3,8,7,6,5,-4,-3,2,1];
+            document.getElementById("demo").innerHTML = arr;
+
+            function myFunction(){
+                arr.sort(function(a,b){return a-b});
+                //document.getElementById('ans').innerHTML;
+
+            alert(arr);
+            }
+            
+       </script>
+       <!--<p id="ans"></p>-->
+    </body>
+</html> 
