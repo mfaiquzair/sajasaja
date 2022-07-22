@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Lab 7</title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <div class="container">
+      <form id="meForm" onsubmit="return false;">
+            <fieldset>
+                <legend>Personal details</legend>
+                <div class="input-items">
+                    <div class="input-item">
+                    <label for="title">Title:</label>
+                        <div class="input-group">
+                            <label for="title">Mr.</label>
+                            <input type="radio" name="title" value="Mr.">
+                            <label for="title">Ms.</label>
+                            <input type="radio" name="title" value="Ms.">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="input-item">
+                         <label for="name">Name:</label>
+                         <div class="input">
+                         <input type="text" name="name" value="Muhammad Muizzuddin" required>
+                         </div>
+                    </div>
+                    <br>
+                    <div class="input-item">
+                         <label for="name">Email:</label>
+                         <div class="input">
+                         <input type="email" name="email" value="izzzulkafli21@gmail.com" required>
+                    </div>
+                    <br>
+                    </div>
+                    <div class="input-item">
+                         <label for="name">IC number:</label>
+                         <div class="input">
+                         <input type="text" name="ic" value="000521140691">
+                         </div>
+                    </div>
+                    <br>
+                    <div class="input-item">
+                         <label for="name">Leave a short message:</label>
+                         <div class="input">
+                         <textarea name="message" cols="30" rows="4"></textarea>
+                    </div>
+                </div>
+            </fieldset>
+
+            <button style="margin-top: 30px;">Submit</button>
+      </form>
+        
+        <div id="result"></div>
+    </div>
+</body>
+</html>

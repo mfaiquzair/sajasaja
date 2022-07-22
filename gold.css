@@ -1,0 +1,86 @@
+/*
+            BCS2243 WEB ENGINEERING HOT
+            CD19052
+            FAIQ UZAIR
+            2B
+            MS AZLINA    
+        */
+
+
+
+body{
+    font-family: sans-serif;
+    background-color: #fff77a;
+    width: auto;
+    margin: 0 auto;
+}
+
+
+.header{
+    width: 100%;
+    height: 50%;   
+    padding-top: 0%;
+}
+
+img{
+    width: 100%;
+    height: 250px;
+    
+}
+
+.navbar{
+    background-color: #7e5109;
+    overflow: hidden;
+}
+
+.navbar a{
+    float: left;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 15px 15px;
+}
+
+.navbar a:hover{
+    background-color: #d4ac0d;
+    color: black;
+}
+
+.navbar a.active{
+    background-color: #d4ac0d;
+    color: white;
+}
+
+h2{
+    color: black;
+    font-weight: bold;
+} 
+
+p{
+    color: black;
+
+}
+
+table{
+    width: 100%;
+    border: 1px #d4ac0d ;
+}
+
+#th1{
+    background-color: #d4ac0d;
+    color: black;
+    text-align: center;
+}
+
+th{
+    background-color: #e5fbf0;
+}
+
+td{
+    background-color: #e5fbf0;
+}
+
+input{
+
+}
