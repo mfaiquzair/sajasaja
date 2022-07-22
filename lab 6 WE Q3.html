@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> lab 6 no 3 </title>
+
+    </head>
+    <body>
+        <input type="text" id="text">
+        <input type="button" id="addbutton" value="Add" onclick="addarray();">
+        <input type="button" id="displaybutton" value="Dsiplay" onclick="displayarray();">
+
+        <script>
+            var x = 0;
+            var array = Array();
+            
+            function addarray(){
+                array[x] = document.getElementById('text').value;
+                alert('Element is added');
+                x++;
+                document.getElementById('text').value = "";
+
+            }
+
+            /*function displayarray(){
+                for(var x=0;y<array.length;y++)
+                {
+                    document.write('Element'+ y + '=' + array[y] + "<br/>");
+                }
+
+            }*/
+
+            function displayarray(){
+                var e = "";
+
+                for(var y=0;y<array.length;y++)
+                {
+                    e += "Element" + y + "=" + array[y] + "";
+                }
+            }
+        </script>
+
+    </body>
+</html>

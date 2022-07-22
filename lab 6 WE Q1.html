@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Question 1</title>
+
+<style>
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+
+.content2 {
+width : 120px;
+height : 21px;
+}
+
+</style>
+</head>
+<script>
+
+ function calc()
+            {   
+                var n1 = Number(document.getElementById("n1").value);
+
+                var n2 = Number(document.getElementById("n2").value);
+                var oper = document.getElementById('operators').value;
+                
+                if(oper == '1')
+                {
+                    document.getElementById('result').value = n1+n2;
+                }
+                
+                if(oper == '2')
+                {
+                    document.getElementById('result').value = n1-n2;
+                }
+                
+                if(oper == '3')
+                {
+                    document.getElementById('result').value = n1/n2;
+                }
+                
+                if(oper == '4')
+                {
+                    document.getElementById('result').value = n1*n2;
+                }
+            }
+</script>
+
+
+
+<body class="content">
+        
+        <br>
+
+        <label for="num1">Number 1 : </label>
+    <select id="n1" name="num1" class="content2">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+  </select>
+  
+<span><br><br>
+
+<label for="num1">Number 2 : </label>
+<select id="n2" name="num2" class="content2">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+  </select>
+  
+  <span><br><br>
+        
+        <select id="operators" class = "content2">
+            <option value="1">+</option>
+            <option value="2">-</option>
+            <option value="3">/</option>
+            <option value="4">*</option>
+        </select>
+        
+        <span>
+        <button onclick="calc();" >=</button>
+        <span>
+        <input type="text" id="result"/ >
+            </span>
+      </span>
+    </span>
+    </span>
+     
+        
+    </body>
+</html>
