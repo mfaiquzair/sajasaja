@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> lab 5 no 3</title> 
+
+        <script>
+            function display() {
+                var n = document.getElementById('name');
+                var a = parseInt(document.getElementById('num').value);
+                var t = new Date();
+                var y = t.getFullYear() - a;
+
+                document.writeln('Welcome' + n +  'Your are born in:' + y);
+
+            } 
+
+        </script>
+    </head>
+    <body> 
+        <form>
+            <fieldset>
+                <label for="n">Name:</label>
+                <input type="text" id="n" name="n">
+    
+                <label for="a">Age:</label>
+                <input type="text" id="num" name="num">
+    
+                <input type="submit" value="Submit" onclick="display()">
+              </fieldset>
+        </form>
+    </body>
+</html>
